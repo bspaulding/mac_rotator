@@ -1,12 +1,12 @@
-# Mac::Rotator
+# MACRotator
 
-TODO: Write a gem description
+A utility to rotate your mac address, and reset it when you're done. Useful for those annoying timed sessions at coffee shops and airports.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'mac-rotator'
+    gem 'mac_rotator'
 
 And then execute:
 
@@ -14,11 +14,13 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install mac-rotator
+    $ gem install mac_rotator
 
 ## Usage
 
-TODO: Write usage instructions here
+    mac_rotator git:(master) ✗ be bin/mac_rotator
+    Current MAC Address: 82:f6:f9:0c:b4:b3
+    Press any key to rotate the address.
 
 ## Contributing
 

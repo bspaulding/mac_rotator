@@ -5,7 +5,7 @@ class MACRotator::CLI
 
   def run
     while true
-      puts "Current MAC Address: #{rotator.current_address}\nPress any key to rotate the address."
+      puts "Current MAC Address: #{rotator.current_address}\nPress any key to rotate the address. Use CTRL-C when you're done, and I'll reset it to your original mac address."
       gets
       rotator.rotate
     end
