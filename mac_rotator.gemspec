@@ -20,6 +20,4 @@ Gem::Specification.new do |gem|
   ['rake', 'rspec'].each do |gem_name|
     gem.add_development_dependency gem_name
   end
-
-  gem.add_dependency 'thor'
 end
