@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = MACRotator::VERSION
   gem.authors       = ["Bradley J. Spaulding"]
   gem.email         = ["bspaulding@dataxu.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{A utility to rotate your mac address.}
+  gem.summary       = %q{A utility to rotate your mac address.}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
