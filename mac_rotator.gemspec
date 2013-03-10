@@ -1,11 +1,11 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'mac-rotator/version'
+require 'mac_rotator/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "mac-rotator"
-  gem.version       = Mac::Rotator::VERSION
+  gem.name          = "mac_rotator"
+  gem.version       = MACRotator::VERSION
   gem.authors       = ["Bradley J. Spaulding"]
   gem.email         = ["bspaulding@dataxu.com"]
   gem.description   = %q{TODO: Write a gem description}
@@ -20,4 +20,6 @@ Gem::Specification.new do |gem|
   ['rake', 'rspec'].each do |gem_name|
     gem.add_development_dependency gem_name
   end
+
+  gem.add_dependency 'thor'
 end

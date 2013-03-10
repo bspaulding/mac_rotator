@@ -1,0 +1,7 @@
+#! /usr/bin/env ruby
+
+require 'mac_rotator'
+require 'mac_rotator/cli'
+
+MACRotator::CLI.run
+
