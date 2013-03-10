@@ -6,7 +6,7 @@ class MACRotator::Rotator
 
   def rotate
     macs << generator.generate
-    mac_manager.set macs.last
+    manager.set macs.last
   end
 
   def reset
